@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway&display=swap');
+
+body {
+  background-color: #D5DCF9;
+  font-family: 'Lato', sans-serif;
+  color: #443627;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1 {
+  font-family: 'Raleway';
+  font-size: 1.802rem;
+}
+
+h3 {
+  font-family: 'Raleway';
+  font-size: 1.424rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+a {
+  color: #18A999;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F7A278;
+}
+
+img {
+  width: 160px;
+  border-color: #443627 ;
+  border-radius: 50%;
+}
+
+.container {
+  width: 50%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn-aqua {
+  height: 24px;
+  width: 80px;
+  background-color: #18A999;
+  color: #443627;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.btn-aqua:hover {
+  background-color: #F7A278;
+}
